@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Interaction</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>User Management</h1>
+    <div id="user-list"></div>
+    <div id="single-user"></div>
+
+    <h2>Add New User</h2>
+    <form id="add-user-form">
+        <label for="name">First Name:</label>
+        <input type="text" id="firstname" name="firstname">
+        <label for="lastname">Last Name:</label>
+        <input type="text" id="lastname" name="lastname">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city">
+        <label for="street">Street:</label>
+        <input type="text" id="street" name="street">
+        <label for="number">Street Number:</label>
+        <input type="number" id="number" name="number">
+        <label for="zipcode">Zipcode:</label>
+        <input type="text" id="zipcode" name="zipcode">
+        <label for="lat">Latitude:</label>
+        <input type="text" id="lat" name="lat">
+        <label for="long">Longitude:</label>
+        <input type="text" id="long" name="long">
+        <label for="phone">Phone:</label>
+        <input type="text" id="phone" name="phone">
+        <button type="submit">Add User</button>
+    </form>
+
+    <h2>User Login</h2>
+    <form id="login-form">
+        <label for="login-username">Username:</label>
+        <input type="text" id="login-username" name="username">
+        <label for="login-password">Password:</label>
+        <input type="password" id="login-password" name="password">
+        <button type="submit">Login</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
